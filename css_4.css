@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+	width: 980px;
+	margin: 0 auto;
+}
+#header {
+	width: 980px;
+	height: 60px; /* fallback */;
+	background-color: #FFFFFF;
+	background: url(images/linear_bg_2.png);
+	background-repeat: repeat-x; /* Safari 4-5, Chrome 1-9 */;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#EEEEE0)); /* Safari 5.1, Chrome 10+ */;
+	background: -webkit-linear-gradient(top, #EEEEE0, #FFFFFF); /* Firefox 3.6+ */;
+	background: -moz-linear-gradient(top, #EEEEE0, #FFFFFF); /* IE 10 */;
+	background: -ms-linear-gradient(top, #EEEEE0, #FFFFFF); /* Opera 11.10+ */;
+	background: -o-linear-gradient(top, #EEEEE0, #FFFFFF);
+}
+#nav {
+	width: 980px;
+	height: 40px;
+	border-top: 1px solid black;
+	color: #333;
+	background: #E7E7E7;
+}
+#nav ul {
+	padding-top: 5px;
+	margin-left: 25px;
+}
+#nav li {
+	display: inline;
+	float: left;
+	width: auto;
+	font-size: .9em;
+}
+#nav a {
+	border-left: 1px solid rgb(255, 255, 255);
+	border-right: 1px solid rgb(204, 204, 204);
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+}
+#content {
+	width: 980px;
+	height: 580px;
+	background-color: black;
+}
+#content h1 {
+	font-size: 1em;
+	padding: 5px;
+	background: -moz-linear-gradient(top, #fad23f 0%, #f9d23f 50%, #fdc800 51%, #fdc700 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fad23f), color-stop(50%,#f9d23f), color-stop(51%,#fdc800), color-stop(100%,#fdc700));
+}
+.white-border {
+	border: 5px solid white;
+}
+.tab-left {
+	margin-left: 30px;
+}
+.spacer {
+	margin-left: 15px;
+}
+.left {
+	float: left;
+}
+.top {
+	width: 540px;
+	height: 266px;
+	background-color: gray;
+}
+.top p {
+	font-size: .8em;
+	color: white;
+	padding: 5px;
+	margin: 5px;
+}
+.top-margin {
+	margin-top: 15px;
+}
+.phone {
+	float: right;
+	vertical-align: center;
+	margin: 25px 20px 0 0;
+	font-weight: bold;
+}
+#customli {
+	list-style: none;
+	background: url(li.png) no-repeat left;
+	color: white;
+	padding: 10px 0 5px 50px;
+	font-size: .7em;
+}
+.bottom-box {
+	width: 225px;
+	height: 250px;
+	background-color: white;
+}
+.bottom-box p {
+	font-size: .7em;
+	padding: 10px;
+}
+.button {
+	float: right;
+	margin-right: 10px;
+}
+.clear {
+	clear: both;
+}
